@@ -1,7 +1,9 @@
-<nav>
-  <a routerLinkActive="active" routerLink="/create-employee">Add Employee </a>
-  <a routerLinkActive="active" routerLink="/employee-list"> View Employees </a>
+<nav class="btn-toolbar justify content-center" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group btn-group-md" role="group" style="background-color: black">
+    <a class="btn btn-primary" routerLinkActive="active" routerLink="/employees-list">View Employees </a>
+    <a class="btn btn-primary" routerLinkActive="active" routerLink="/create-employee"> Add Employee </a>
+    <span class="nav-menu" style="background-color: black"></span>
+    <a class="btn btn-primary" routerLinkActive="active" routerLink="/edit-employee/:id"> Edit Employee</a>
+  </div>
 </nav>
-<div class="intro">
-</div>
 <router-outlet></router-outlet>

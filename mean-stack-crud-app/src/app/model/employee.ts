@@ -1,6 +1,6 @@
 export class Employee {
   name: string;
   email: string;
-  designnation: string;
+  designation: string;
   phoneNumber: number;
 }
